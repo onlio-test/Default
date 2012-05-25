@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="587cf683-19a6-4d15-8600-1f40c0113c28" name="Jakub.Novak@JNV-ONL-03 2012-05-25 09:11:55" runUser="JNV-ONL-03\Jakub.Novak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="03953d5a-9474-46b2-9ad8-65fed99ede03">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Jakub.Novak_JNV-ONL-03 2012-05-25 09_11_55">
+      <DeploymentItem filename="C:\Projects\GitTest\Default\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-25T09:11:55.7044254+02:00" queuing="2012-05-25T09:11:56.7669254+02:00" start="2012-05-25T09:11:56.8450504+02:00" finish="2012-05-25T09:11:57.3919254+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTest" storage="c:\projects\gittest\default\classlibrary1\testproject1\bin\debug\testproject1.dll" id="7aa6745c-02c5-3523-6828-2c5ace579828">
+      <Execution id="3b9aa303-11f1-4f02-b6a5-d1bd21ce8211" />
+      <TestMethod codeBase="C:/Projects/GitTest/Default/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Class1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTest" />
+    </UnitTest>
+    <UnitTest name="Class1ConstructorTest" storage="c:\projects\gittest\default\classlibrary1\testproject1\bin\debug\testproject1.dll" id="f415f7a0-38c5-5621-2195-6cacfd981139">
+      <Execution id="85b8d645-b473-4a33-a8a3-47a369824110" />
+      <TestMethod codeBase="C:/Projects/GitTest/Default/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Class1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Class1ConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7aa6745c-02c5-3523-6828-2c5ace579828" executionId="3b9aa303-11f1-4f02-b6a5-d1bd21ce8211" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f415f7a0-38c5-5621-2195-6cacfd981139" executionId="85b8d645-b473-4a33-a8a3-47a369824110" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3b9aa303-11f1-4f02-b6a5-d1bd21ce8211" testId="7aa6745c-02c5-3523-6828-2c5ace579828" testName="TestTest" computerName="JNV-ONL-03" duration="00:00:00.0238569" startTime="2012-05-25T09:11:56.8919254+02:00" endTime="2012-05-25T09:11:57.2825504+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b9aa303-11f1-4f02-b6a5-d1bd21ce8211">
+    </UnitTestResult>
+    <UnitTestResult executionId="85b8d645-b473-4a33-a8a3-47a369824110" testId="f415f7a0-38c5-5621-2195-6cacfd981139" testName="Class1ConstructorTest" computerName="JNV-ONL-03" duration="00:00:00.0006517" startTime="2012-05-25T09:11:57.2981754+02:00" endTime="2012-05-25T09:11:57.2981754+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85b8d645-b473-4a33-a8a3-47a369824110">
+    </UnitTestResult>
+  </Results>
+</TestRun>
