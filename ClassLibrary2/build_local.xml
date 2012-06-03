@@ -1,0 +1,30 @@
+<project name="ClassLibrary2" default="all" basedir=".">
+
+	<property name="dir" location="."/>
+	<property name="src.dir" location="${dir}/src"/>
+	<property name="build.dir" location="${dir}/build"/>
+
+	<!-- builds all -->
+	<target name="all" depends="clean.pre,build.aa"/>
+	
+	<!-- cleans build dir -->
+	<target name="clean.pre">
+		<delete dir="${build.dir}"/>
+		<mkdir dir="${build.dir}"/>
+	</target>
+	
+	<!-- builds AAs -->
+    <target name="build.aa">
+        <javac srcdir="${dir}/src"
+               includes="**/*.java"
+               destdir="${build.dir}" 
+               debug="on" 
+               deprecation="off" 
+               optimize="on" 
+               source="1.5" 
+			   target="1.5"
+			   includeantruntime="false">
+        </javac>
+    </target>
+
+</project>
