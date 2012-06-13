@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d6fe6eea-73f7-41e5-88cd-c5e03c3da54e" name="Jakub.Novak@JNV-ONL-03 2012-06-13 19:56:41" runUser="JNV-ONL-03\Jakub.Novak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="03953d5a-9474-46b2-9ad8-65fed99ede03">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Jakub.Novak_JNV-ONL-03 2012-06-13 19_56_41">
+      <DeploymentItem filename="C:\Projects\GitTest\Default\ClassLibrary1\bin\Debug\ClassLibrary1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="C:\Projects\GitTest\Default\ClassLibrary1\bin\Debug\ClassLibrary1.dll" pdbFile="C:\Projects\GitTest\Default\ClassLibrary1\bin\Debug\ClassLibrary1.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-13T19:56:41.7676765+02:00" queuing="2012-06-13T19:56:44.5984669+02:00" start="2012-06-13T19:56:44.7840925+02:00" finish="2012-06-13T19:56:49.4403525+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="JNV-ONL-03\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestTest" storage="c:\projects\gittest\default\classlibrary1\testproject1\bin\debug\testproject1.dll" id="7aa6745c-02c5-3523-6828-2c5ace579828">
+      <Execution id="db5eb1c4-dcdd-430c-8209-e89cc9af00e7" />
+      <TestMethod codeBase="C:/Projects/GitTest/Default/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Class1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTest" />
+    </UnitTest>
+    <UnitTest name="Class1ConstructorTest" storage="c:\projects\gittest\default\classlibrary1\testproject1\bin\debug\testproject1.dll" id="f415f7a0-38c5-5621-2195-6cacfd981139">
+      <Execution id="05abcf85-08a8-4683-8c1d-77445aaf5dbb" />
+      <TestMethod codeBase="C:/Projects/GitTest/Default/ClassLibrary1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.Class1Test, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Class1ConstructorTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7aa6745c-02c5-3523-6828-2c5ace579828" executionId="db5eb1c4-dcdd-430c-8209-e89cc9af00e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f415f7a0-38c5-5621-2195-6cacfd981139" executionId="05abcf85-08a8-4683-8c1d-77445aaf5dbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="db5eb1c4-dcdd-430c-8209-e89cc9af00e7" testId="7aa6745c-02c5-3523-6828-2c5ace579828" testName="TestTest" computerName="JNV-ONL-03" duration="00:00:00.2017708" startTime="2012-06-13T19:56:46.7022237+02:00" endTime="2012-06-13T19:56:47.3364445+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db5eb1c4-dcdd-430c-8209-e89cc9af00e7">
+    </UnitTestResult>
+    <UnitTestResult executionId="05abcf85-08a8-4683-8c1d-77445aaf5dbb" testId="f415f7a0-38c5-5621-2195-6cacfd981139" testName="Class1ConstructorTest" computerName="JNV-ONL-03" duration="00:00:00.0003660" startTime="2012-06-13T19:56:47.3828509+02:00" endTime="2012-06-13T19:56:47.3828509+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05abcf85-08a8-4683-8c1d-77445aaf5dbb">
+    </UnitTestResult>
+  </Results>
+</TestRun>
